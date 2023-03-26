@@ -7,6 +7,7 @@ export const registerWebComponents = () => {
 
 function getInitialProps() {
   return {
-    asset: "",
+    quote: "",
+    cite: "",
   };
 }

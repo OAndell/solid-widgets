@@ -2,6 +2,8 @@ import resolve from "@rollup/plugin-node-resolve";
 import replace from "@rollup/plugin-replace";
 import { babel } from "@rollup/plugin-babel";
 import { terser } from "rollup-plugin-terser";
+import { embedCSSPlugin } from "rollup-plugin-embed-css";
+import styles from "rollup-plugin-styles";
 
 const extensions = [".ts", ".tsx"];
 
@@ -10,6 +12,7 @@ export default {
   output: {
     file: "dist/widget.mjs",
     format: "es",
+    assetFileNames: "[name]-[hash][extname]",
   },
   external: [],
   plugins: [
@@ -17,6 +20,7 @@ export default {
       "process.env.NODE_ENV": JSON.stringify("production"),
       preventAssignment: true,
     }),
+    styles(),
     resolve({ extensions }),
     babel({
       exclude: "node_modules/**",
