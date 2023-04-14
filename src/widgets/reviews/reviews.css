@@ -16,7 +16,7 @@
     background: var(--oa-widget-reviews-background);
     color: var(--oa-widget-reviews-color);
     text-align: start;
-    border-radius: 1em;
+    border-radius: var(--oa-widget-reviews-border-radius);
     box-shadow: var(--oa-widget-reviews-box-shadow);
     cursor: pointer;
     overflow: hidden;

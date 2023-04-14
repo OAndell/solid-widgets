@@ -18,5 +18,6 @@ function getInitialReviewsProps() {
   return {
     website: "314075",
     property: "315887",
+    href: "/",
   };
 }

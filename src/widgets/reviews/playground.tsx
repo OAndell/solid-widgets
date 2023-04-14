@@ -8,6 +8,7 @@ const StyleWrapper = styled<any>("div")`
   --oa-widget-reviews-color: ${(props) => props.textColor};
   --oa-widget-reviews-box-shadow: ${(props) =>
     `${props.shadowX}em ${props.shadowY}em ${props.shadowSpread}em ${props.shadowColor};`}
+  --oa-widget-reviews-border-radius: ${(props) => props.borderRadius}em;
     
   grid-column: 2 / 3;
 `;
@@ -45,6 +46,8 @@ export const Playground = (props: any) => {
   const [shadowSpread, setShadowSpread] = createSignal(0);
   const [shadowX, setShadowX] = createSignal(0.5);
   const [shadowY, setShadowY] = createSignal(0.5);
+
+  const [borderRadius, setBorderRadius] = createSignal(1);
 
   const [websiteId, setWebsiteId] = createSignal("314075");
   const [propertyId, setPropertyId] = createSignal("315887");
@@ -116,6 +119,17 @@ export const Playground = (props: any) => {
               ></input>
             </Row>
           </Group>
+          <Row>
+            <label>Corner Radius</label>
+            <input
+              type="range"
+              value={borderRadius()}
+              min="0"
+              max="4"
+              step="0.05"
+              onInput={(e) => setBorderRadius(+e.currentTarget.value)}
+            ></input>
+          </Row>
           <Group>
             <Row>
               <label>Website Id</label>
@@ -150,6 +164,7 @@ export const Playground = (props: any) => {
           shadowSpread={shadowSpread()}
           shadowX={shadowX()}
           shadowY={shadowY()}
+          borderRadius={borderRadius()}
         >
           <review-widget
             website={websiteId()}
@@ -166,6 +181,7 @@ export const Playground = (props: any) => {
     --oa-widget-reviews-background: ${background()};
     --oa-widget-reviews-color: ${textColor()};
     --oa-widget-reviews-box-shadow: ${shadowX()}em ${shadowY()}em ${shadowSpread()}em ${shadowColor()}
+    --oa-widget-reviews-border-radius: ${borderRadius()}em;
   }
 </style>
 <div class="oa-widget-reviews-wrapper">
