@@ -3,6 +3,12 @@ import { createSignal } from "solid-js";
 
 import { QuotePlayground } from "~/widgets/quote";
 import { ReviewsWidgetPlayground } from "~/widgets/reviews";
+import { styled } from "solid-styled-components";
+
+const StyledMain = styled.main`
+  max-width: 1000px;
+  margin: auto;
+`;
 
 export default function Home() {
   const [activeIndex, setActiveIndex] = createSignal(0);
@@ -13,10 +19,10 @@ export default function Home() {
       <header>
         <Tabs tabs={tabs} activeTab={0} onChange={setActiveIndex} />
       </header>
-      <main>
+      <StyledMain>
         {activeIndex() === 1 && <QuotePlayground />}
         {activeIndex() === 0 && <ReviewsWidgetPlayground />}
-      </main>
+      </StyledMain>
     </>
   );
 }

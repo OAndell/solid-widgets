@@ -48,6 +48,9 @@ export const Playground = (props: any) => {
 
   const [websiteId, setWebsiteId] = createSignal("314075");
   const [propertyId, setPropertyId] = createSignal("315887");
+
+  const [link, setLink] = createSignal("https://oscar-andell.lodgify.com/");
+
   return (
     <>
       <StyledSection>
@@ -95,7 +98,7 @@ export const Playground = (props: any) => {
               <input
                 type="range"
                 value={shadowY()}
-                min="0"
+                min="-5"
                 max="5"
                 step="0.1"
                 onInput={(e) => setShadowY(+e.currentTarget.value)}
@@ -106,7 +109,7 @@ export const Playground = (props: any) => {
               <input
                 type="range"
                 value={shadowX()}
-                min="0"
+                min="-5"
                 max="5"
                 step="0.1"
                 onInput={(e) => setShadowX(+e.currentTarget.value)}
@@ -130,6 +133,15 @@ export const Playground = (props: any) => {
               ></input>
             </Row>
           </Group>
+          <Group>
+            <Row>
+              <label>Link</label>
+              <input
+                value={link()}
+                onInput={(e) => setLink(e.currentTarget.value)}
+              ></input>
+            </Row>
+          </Group>
         </SidePanel>
         <StyleWrapper
           background={background()}
@@ -142,6 +154,7 @@ export const Playground = (props: any) => {
           <review-widget
             website={websiteId()}
             property={propertyId()}
+            href={link()}
           ></review-widget>
         </StyleWrapper>
         <Code class="code">
@@ -156,7 +169,7 @@ export const Playground = (props: any) => {
   }
 </style>
 <div class="oa-widget-reviews-wrapper">
-    <review-widget website="${websiteId()}" property="${propertyId()}"></review-widget>
+    <review-widget website="${websiteId()}" property="${propertyId()}" href="${link()}"></review-widget>
 </div>`}
           </code>
         </Code>

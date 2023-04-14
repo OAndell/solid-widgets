@@ -1,4 +1,4 @@
-import style from "./quote.css";
+import style from "./quote.css?inline";
 
 export const Widget = (props: any) => {
   return (

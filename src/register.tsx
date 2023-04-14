@@ -1,10 +1,10 @@
 import { customElement } from "solid-element";
-import { Quote } from "./widgets/quote";
-import { Reviews } from "./widgets/reviews";
+//import { Quote } from "./widgets/quote";
+import { Widget as Reviews } from "./widgets/reviews/reviews";
 
 export const registerWebComponents = () => {
   customElement("review-widget", getInitialReviewsProps(), Reviews);
-  customElement("quote-widget", getInitialProps(), Quote);
+  //customElement("quote-widget", getInitialProps(), Quote);
 };
 
 function getInitialProps() {
