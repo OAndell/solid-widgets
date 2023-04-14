@@ -175,12 +175,12 @@ export const Playground = (props: any) => {
         <Code class="code">
           <code>
             {`
-<script src="https://cdn.jsdelivr.net/gh/OAndell/solid-widgets/dist/widget.mjs" type="module"></script>
+<script src="https://cdn.jsdelivr.net/gh/OAndell/solid-widgets@latest/dist/widget.mjs" type="module"></script>
 <style>
   .oa-widget-reviews-wrapper {
     --oa-widget-reviews-background: ${background()};
     --oa-widget-reviews-color: ${textColor()};
-    --oa-widget-reviews-box-shadow: ${shadowX()}em ${shadowY()}em ${shadowSpread()}em ${shadowColor()}
+    --oa-widget-reviews-box-shadow: ${shadowX()}em ${shadowY()}em ${shadowSpread()}em ${shadowColor()};
     --oa-widget-reviews-border-radius: ${borderRadius()}em;
   }
 </style>
