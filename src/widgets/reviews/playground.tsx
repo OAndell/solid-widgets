@@ -156,7 +156,7 @@ export const Playground = (props: any) => {
   }
 </style>
 <div class="oa-widget-reviews-wrapper">
-    <reviews-widget website="${websiteId()}" property="${propertyId()}"></reviews-widget>
+    <review-widget website="${websiteId()}" property="${propertyId()}"></review-widget>
 </div>`}
           </code>
         </Code>
