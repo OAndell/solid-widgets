@@ -1,0 +1,35 @@
+.quote__blockquote {
+    font-size: 1.25em;
+    height: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+  
+.quote__wrapper {
+    background: var(--oa-widget-reviews-background);
+    color: var(--oa-widget-reviews-color);
+    padding: 20px;
+    text-align: start;
+    border-radius: 1em;
+    box-shadow: var(--oa-widget-reviews-box-shadow);
+    font-family: "Roboto Mono";
+}
+  
+.quote__wrapper:before {
+    content: "“";
+    font-size: 4em;
+    position: absolute;
+}
+  
+.quote__citation {
+    padding: 1em;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+  
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
