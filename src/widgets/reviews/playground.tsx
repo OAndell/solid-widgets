@@ -62,6 +62,8 @@ export const Playground = (props: any) => {
 
   const [link, setLink] = createSignal("https://oscar-andell.lodgify.com/");
 
+  const [ctaText, setCtaText] = createSignal("Book now");
+
   return (
     <>
       <StyledSection>
@@ -163,6 +165,13 @@ export const Playground = (props: any) => {
                 onInput={(e) => setLink(e.currentTarget.value)}
               ></input>
             </Row>
+            <Row>
+              <label>CTA Text</label>
+              <input
+                value={ctaText()}
+                onInput={(e) => setCtaText(e.currentTarget.value)}
+              ></input>
+            </Row>
           </Group>
         </SidePanel>
         <StyleWrapper
@@ -178,6 +187,7 @@ export const Playground = (props: any) => {
             website={websiteId()}
             property={propertyId()}
             href={link()}
+            cta={ctaText()}
           ></review-widget>
         </StyleWrapper>
         <Code class="code">
@@ -193,7 +203,7 @@ export const Playground = (props: any) => {
   }
 </style>
 <div class="oa-widget-reviews-wrapper">
-    <review-widget website="${websiteId()}" property="${propertyId()}" href="${link()}"></review-widget>
+    <review-widget website="${websiteId()}" property="${propertyId()}" href="${link()}" cta="${ctaText()}"></review-widget>
 </div>`}
           </code>
         </Code>

@@ -52,10 +52,10 @@
   "src/components/side-panel/component.tsx": [
   ],
   "src/components/tabs/component.tsx": [
-    "/assets/playground-d3a53b43.js"
+    "/assets/playground-abcf2b18.js"
   ],
   "src/components/tabs/styles.ts": [
-    "/assets/playground-d3a53b43.js"
+    "/assets/playground-abcf2b18.js"
   ],
   "src/entry-client.tsx": [
   ],
@@ -66,19 +66,19 @@
   "src/root.tsx": [
   ],
   "src/routes/index.tsx": [
-    "/assets/index-e8aafed8.js"
+    "/assets/index-bb4c3435.js"
   ],
   "src/routes/solid-widgets.tsx": [
-    "/assets/solid-widgets-e8aafed8.js"
+    "/assets/solid-widgets-bb4c3435.js"
   ],
   "src/widgets/quote/playground.tsx": [
   ],
-  "src/widgets/quote/quote.css?used&inline": [
+  "src/widgets/quote/quote.css?used": [
   ],
   "src/widgets/quote/quote.tsx": [
   ],
   "src/widgets/reviews/playground.tsx": [
-    "/assets/playground-d3a53b43.js"
+    "/assets/playground-abcf2b18.js"
   ],
   "src/widgets/reviews/reviews.css?used": [
   ],

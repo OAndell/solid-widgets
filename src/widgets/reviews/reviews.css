@@ -28,7 +28,7 @@
     position: relative;
 }
 
-.quote__wrapper:hover {
+.review-widget__container:hover > .quote__wrapper {
     filter: blur(2px);
 }
 

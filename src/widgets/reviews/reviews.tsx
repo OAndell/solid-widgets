@@ -73,7 +73,7 @@ export const Widget = (props: any) => {
           </svg>
         </div>
       </figure>
-      <div class="review-widget__cta-text">Book Now</div>
+      <div class="review-widget__cta-text">{props.cta}</div>
     </a>
   );
 };

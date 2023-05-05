@@ -2,48 +2,48 @@
   "/": [
     {
       "type": "script",
-      "href": "/assets/index-e8aafed8.js"
+      "href": "/assets/index-bb4c3435.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-ba58a731.js"
+      "href": "/assets/index-ce63c8a4.js"
     },
     {
       "type": "style",
-      "href": "/assets/index-86acc2f0.css"
+      "href": "/assets/index-799360f3.css"
     },
     {
       "type": "script",
-      "href": "/assets/playground-d3a53b43.js"
+      "href": "/assets/playground-abcf2b18.js"
     }
   ],
   "/solid-widgets": [
     {
       "type": "script",
-      "href": "/assets/solid-widgets-e8aafed8.js"
+      "href": "/assets/solid-widgets-bb4c3435.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-ba58a731.js"
+      "href": "/assets/index-ce63c8a4.js"
     },
     {
       "type": "style",
-      "href": "/assets/index-86acc2f0.css"
+      "href": "/assets/index-799360f3.css"
     },
     {
       "type": "script",
-      "href": "/assets/playground-d3a53b43.js"
+      "href": "/assets/playground-abcf2b18.js"
     }
   ],
   "entry-client": [],
   "index.html": [
     {
       "type": "script",
-      "href": "/assets/index-ba58a731.js"
+      "href": "/assets/index-ce63c8a4.js"
     },
     {
       "type": "style",
-      "href": "/assets/index-86acc2f0.css"
+      "href": "/assets/index-799360f3.css"
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   ".solid/index.css": {
-    "file": "assets/index-86acc2f0.css",
+    "file": "assets/index-799360f3.css",
     "src": ".solid/index.css"
   },
   ".solid/index.html": {
     "css": [
-      "assets/index-86acc2f0.css"
+      "assets/index-799360f3.css"
     ],
     "dynamicImports": [
       "src/routes/index.tsx",
       "src/routes/solid-widgets.tsx"
     ],
-    "file": "assets/index-ba58a731.js",
+    "file": "assets/index-ce63c8a4.js",
     "isEntry": true,
     "src": ".solid/index.html"
   },
-  "_playground-d3a53b43.js": {
-    "file": "assets/playground-d3a53b43.js",
+  "_playground-abcf2b18.js": {
+    "file": "assets/playground-abcf2b18.js",
     "imports": [
       ".solid/index.html"
     ]
   },
   "src/routes/index.tsx": {
-    "file": "assets/index-e8aafed8.js",
+    "file": "assets/index-bb4c3435.js",
     "imports": [
       ".solid/index.html",
-      "_playground-d3a53b43.js"
+      "_playground-abcf2b18.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
   },
   "src/routes/solid-widgets.tsx": {
-    "file": "assets/solid-widgets-e8aafed8.js",
+    "file": "assets/solid-widgets-bb4c3435.js",
     "imports": [
       ".solid/index.html",
-      "_playground-d3a53b43.js"
+      "_playground-abcf2b18.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/solid-widgets.tsx"

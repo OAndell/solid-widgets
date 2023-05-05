@@ -19,5 +19,6 @@ function getInitialReviewsProps() {
     website: "314075",
     property: "315887",
     href: "/",
+    cta: "Book Now",
   };
 }
