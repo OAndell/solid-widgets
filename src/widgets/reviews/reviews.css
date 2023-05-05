@@ -75,7 +75,7 @@
 
 .review-widget__cta-text {
     position: absolute;
-    left: 0;
+    left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     font-size: 1.5rem;
