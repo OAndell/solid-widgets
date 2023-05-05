@@ -1,7 +1,7 @@
 import { createSignal } from "solid-js";
 import { styled } from "solid-styled-components";
-import { Code } from "~/components/code";
-import { SidePanel } from "~/components/side-panel";
+import { Code } from "../../components/code";
+import { SidePanel } from "../../components/side-panel";
 
 const StyleWrapper = styled<any>("div")`
   --oa-widget-reviews-background: ${(props) => props.background};
