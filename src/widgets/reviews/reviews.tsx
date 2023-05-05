@@ -39,7 +39,7 @@ export const Widget = (props: any) => {
   };
 
   return (
-    <a href={props.href}>
+    <a href={props.href} class="review-widget__container">
       <figure class="quote__wrapper">
         <style>{style}</style>
         <blockquote class="quote__blockquote">
@@ -73,6 +73,7 @@ export const Widget = (props: any) => {
           </svg>
         </div>
       </figure>
+      <div class="review-widget__cta-text">Book Now</div>
     </a>
   );
 };
