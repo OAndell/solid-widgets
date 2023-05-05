@@ -15479,15 +15479,37 @@ var manifest = {
 	"/": [
 	{
 		type: "script",
-		href: "/assets/index-6fcd9481.js"
+		href: "/assets/index-e8aafed8.js"
 	},
 	{
 		type: "script",
-		href: "/assets/index-a05e9350.js"
+		href: "/assets/index-ba58a731.js"
 	},
 	{
 		type: "style",
 		href: "/assets/index-86acc2f0.css"
+	},
+	{
+		type: "script",
+		href: "/assets/playground-d3a53b43.js"
+	}
+],
+	"/solid-widgets": [
+	{
+		type: "script",
+		href: "/assets/solid-widgets-e8aafed8.js"
+	},
+	{
+		type: "script",
+		href: "/assets/index-ba58a731.js"
+	},
+	{
+		type: "style",
+		href: "/assets/index-86acc2f0.css"
+	},
+	{
+		type: "script",
+		href: "/assets/playground-d3a53b43.js"
 	}
 ],
 	"entry-client": [
@@ -15495,7 +15517,7 @@ var manifest = {
 	"index.html": [
 	{
 		type: "script",
-		href: "/assets/index-a05e9350.js"
+		href: "/assets/index-ba58a731.js"
 	},
 	{
 		type: "style",
@@ -15663,6 +15685,10 @@ const api = [
   {
     GET: "skip",
     path: "/"
+  },
+  {
+    GET: "skip",
+    path: "/solid-widgets"
   }
 ];
 function expandOptionals(pattern) {

@@ -8,18 +8,35 @@
       "assets/index-86acc2f0.css"
     ],
     "dynamicImports": [
-      "src/routes/index.tsx"
+      "src/routes/index.tsx",
+      "src/routes/solid-widgets.tsx"
     ],
-    "file": "assets/index-a05e9350.js",
+    "file": "assets/index-ba58a731.js",
     "isEntry": true,
     "src": ".solid/index.html"
   },
-  "src/routes/index.tsx": {
-    "file": "assets/index-6fcd9481.js",
+  "_playground-d3a53b43.js": {
+    "file": "assets/playground-d3a53b43.js",
     "imports": [
       ".solid/index.html"
+    ]
+  },
+  "src/routes/index.tsx": {
+    "file": "assets/index-e8aafed8.js",
+    "imports": [
+      ".solid/index.html",
+      "_playground-d3a53b43.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
+  },
+  "src/routes/solid-widgets.tsx": {
+    "file": "assets/solid-widgets-e8aafed8.js",
+    "imports": [
+      ".solid/index.html",
+      "_playground-d3a53b43.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/solid-widgets.tsx"
   }
 }
