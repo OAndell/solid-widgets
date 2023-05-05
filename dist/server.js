@@ -15476,28 +15476,14 @@ if (globalThis.crypto != crypto.webcrypto) {
 }
 
 var manifest = {
-	"/*404": [
-	{
-		type: "script",
-		href: "/assets/_...404_-fb6099f9.js"
-	},
-	{
-		type: "script",
-		href: "/assets/index-8bdfdebe.js"
-	},
-	{
-		type: "style",
-		href: "/assets/index-86acc2f0.css"
-	}
-],
 	"/": [
 	{
 		type: "script",
-		href: "/assets/index-e26695b8.js"
+		href: "/assets/index-6fcd9481.js"
 	},
 	{
 		type: "script",
-		href: "/assets/index-8bdfdebe.js"
+		href: "/assets/index-a05e9350.js"
 	},
 	{
 		type: "style",
@@ -15509,7 +15495,7 @@ var manifest = {
 	"index.html": [
 	{
 		type: "script",
-		href: "/assets/index-8bdfdebe.js"
+		href: "/assets/index-a05e9350.js"
 	},
 	{
 		type: "style",
@@ -15674,10 +15660,6 @@ class ResponseError extends Error {
 }
 
 const api = [
-  {
-    GET: "skip",
-    path: "/*404"
-  },
   {
     GET: "skip",
     path: "/"

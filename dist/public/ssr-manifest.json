@@ -19,7 +19,7 @@
   ],
   "node_modules/.pnpm/component-register@0.8.3/node_modules/component-register/dist/component-register.js": [
   ],
-  "node_modules/.pnpm/goober@2.1.13_csstype@3.1.1/node_modules/goober/dist/goober.modern.js": [
+  "node_modules/.pnpm/goober@2.1.12_csstype@3.1.1/node_modules/goober/dist/goober.modern.js": [
   ],
   "node_modules/.pnpm/solid-element@1.6.4_solid-js@1.6.15/node_modules/solid-element/dist/index.js": [
   ],
@@ -43,9 +43,6 @@
   ],
   "node_modules/.pnpm/solid-start@0.2.23_@solidjs+meta@0.28.2_@solidjs+router@0.7.1_solid-js@1.6.15_solid-start-nod_ebqntzov5ghtyb2xsbwkndf77i/node_modules/solid-start/server/ServerContext.tsx": [
   ],
-  "node_modules/.pnpm/solid-start@0.2.23_@solidjs+meta@0.28.2_@solidjs+router@0.7.1_solid-js@1.6.15_solid-start-nod_ebqntzov5ghtyb2xsbwkndf77i/node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "/assets/_...404_-fb6099f9.js"
-  ],
   "node_modules/.pnpm/solid-start@0.2.23_@solidjs+meta@0.28.2_@solidjs+router@0.7.1_solid-js@1.6.15_solid-start-nod_ebqntzov5ghtyb2xsbwkndf77i/node_modules/solid-start/server/types.tsx": [
   ],
   "node_modules/.pnpm/solid-styled-components@0.28.5_solid-js@1.6.15/node_modules/solid-styled-components/src/index.js": [
@@ -55,10 +52,10 @@
   "src/components/side-panel/component.tsx": [
   ],
   "src/components/tabs/component.tsx": [
-    "/assets/index-e26695b8.js"
+    "/assets/index-6fcd9481.js"
   ],
   "src/components/tabs/styles.ts": [
-    "/assets/index-e26695b8.js"
+    "/assets/index-6fcd9481.js"
   ],
   "src/entry-client.tsx": [
   ],
@@ -68,11 +65,8 @@
   ],
   "src/root.tsx": [
   ],
-  "src/routes/[...404].tsx": [
-    "/assets/_...404_-fb6099f9.js"
-  ],
   "src/routes/index.tsx": [
-    "/assets/index-e26695b8.js"
+    "/assets/index-6fcd9481.js"
   ],
   "src/widgets/quote/playground.tsx": [
   ],
@@ -81,7 +75,7 @@
   "src/widgets/quote/quote.tsx": [
   ],
   "src/widgets/reviews/playground.tsx": [
-    "/assets/index-e26695b8.js"
+    "/assets/index-6fcd9481.js"
   ],
   "src/widgets/reviews/reviews.css?used": [
   ],
