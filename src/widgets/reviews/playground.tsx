@@ -15,11 +15,19 @@ const StyleWrapper = styled<any>("div")`
 
 const Row = styled("div")`
   display: flex;
+  align-items: center;
 `;
 
 const Group = styled("div")`
   display: flex;
   flex-direction: column;
+`;
+
+const ColorInput = styled("input")`
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
 `;
 
 const StyledSection = styled("section")`
@@ -40,17 +48,17 @@ const StyledSection = styled("section")`
 
 export const Playground = (props: any) => {
   const [background, setBackground] = createSignal("#E8DFD7");
-  const [textColor, setTextColor] = createSignal("#CE8D31");
+  const [textColor, setTextColor] = createSignal("#111111");
 
-  const [shadowColor, setShadowColor] = createSignal("#064c72");
-  const [shadowSpread, setShadowSpread] = createSignal(0);
+  const [shadowColor, setShadowColor] = createSignal("#bababa");
+  const [shadowSpread, setShadowSpread] = createSignal(1);
   const [shadowX, setShadowX] = createSignal(0.5);
   const [shadowY, setShadowY] = createSignal(0.5);
 
   const [borderRadius, setBorderRadius] = createSignal(1);
 
-  const [websiteId, setWebsiteId] = createSignal("314075");
-  const [propertyId, setPropertyId] = createSignal("315887");
+  const [websiteId, setWebsiteId] = createSignal("149038");
+  const [propertyId, setPropertyId] = createSignal("199259");
 
   const [link, setLink] = createSignal("https://oscar-andell.lodgify.com/");
 
@@ -61,29 +69,29 @@ export const Playground = (props: any) => {
           <Group>
             <Row>
               <label>Background color</label>
-              <input
+              <ColorInput
                 type="color"
                 value={background()}
                 onInput={(e) => setBackground(e.currentTarget.value)}
-              ></input>
+              ></ColorInput>
             </Row>
             <Row>
               <label>Text color</label>
-              <input
+              <ColorInput
                 type="color"
                 value={textColor()}
                 onInput={(e) => setTextColor(e.currentTarget.value)}
-              ></input>
+              ></ColorInput>
             </Row>
           </Group>
           <Group>
             <Row>
               <label>Shadow color</label>
-              <input
+              <ColorInput
                 type="color"
                 value={shadowColor()}
                 onInput={(e) => setShadowColor(e.currentTarget.value)}
-              ></input>
+              ></ColorInput>
             </Row>
             <Row>
               <label>Shadow spread</label>
